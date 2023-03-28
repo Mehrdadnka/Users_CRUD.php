@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'abel';
+    src: url(fonts/Abel/Abel-Regular.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 50px;
+    height: 100vh;
+    font-family: 'abel';
+    background-color: rgb(123, 178, 240);
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.container
+{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+}
+table
+{
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 0 30px black;
+    border-radius: 1rem;
+}
+table thead
+{
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+}
+table thead th{
+    border-radius: 0.8rem;
+}
+
+table tbody
+{
+    padding: 0.2rem 0.6rem;
+    background-color: rgb(213, 234, 252);
+    height: 8rem;
+    border-radius: 0.8rem;
+}
+table tbody th, tr, td
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.container .product-form
+{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: rgba(240, 255, 255, 0.603);
+    box-shadow: 0 0 30px black;
+
+}
+.container .product-form, .input, .input-title, .input-image, .input-description, .input-price
+{
+    border-radius: 1rem;
+}
